@@ -1,0 +1,117 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-color: #929cb0;
+   */
+  background-image: url('./assets/password.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #f7f3f3;
+  
+}
+
+.container {
+  background-color: #b2a0a023;
+  /* opacity: .4; */
+  padding: 2em 3em;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+.container:hover{
+  transform: scale(1.1);
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #d4d9de;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 0.75em;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #000000;
+  text-align: center;
+}
+/* .passwordbox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: ;
+  
+  border: 2px solid red;
+} */
+.length {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.length p {
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  width: 70px;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #000000;
+  text-align: center;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75em;
+}
+
+.checkbox-group input {
+  margin-right: 0.5em;
+  accent-color: #3498db;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+button {
+  padding: 0.75em 2em;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1em;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #1c639f;
+  transform: translateY(0);
+}
